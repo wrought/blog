@@ -3,19 +3,20 @@ menu:
   Archives: /archives
 
 widgets:
+- brain
 - search
 - category
 - tag
 
-excerpt_link: Read More
+excerpt_link: More
 
 twitter:
-  username:
+  username: wrought
   show_replies: false
-  tweet_count: 5
+  tweet_count: 3
 
 addthis:
-  enable: true
+  enable: false
   pubid:
   facebook: true
   twitter: true
@@ -27,7 +28,7 @@ fancybox: true
 google_analytics:
 rss:
 
-comment_provider: facebook
+comment_provider:
 # Facebook comment
 facebook:
   appid: 123456789012345
