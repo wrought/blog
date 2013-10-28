@@ -3,16 +3,72 @@ color-background = #eee
 color-font = #444
 color-meta = #999
 color-border = #ddd
-color-link = #943e6a
+color-link = #c31867
 
 // Background image
 // https://upload.wikimedia.org/wikipedia/commons/c/c7/User-FastFission-brain.gif
 
 // Font
-font-default = "Roboto Slab", "Times New Roman", Times, serif
-font-serif = "Roboto Slab", "Times New Roman", Times, serif
+font-default = "roboto_slablight", "Times New Roman", Times, serif
+font-serif = "roboto_slablight", "Times New Roman", Times, serif
 font-mono = Monaco, Menlo, Consolas, Courier New, monospace
-font-title = Roboto, OpenSans, Arial, sans-serif
+font-title = robotolight, OpenSans, Arial, sans-serif
+font-path = 'font/'
+
+@font-face {
+    font-family: 'robotolight';
+    src: url(font-path'roboto-light-webfont.eot');
+    src: url(font-path'roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url(font-path'roboto-light-webfont.woff') format('woff'),
+         url(font-path'roboto-light-webfont.ttf') format('truetype'),
+         url(font-path'roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url(font-path'robotoslab-regular-webfont.eot');
+    src: url(font-path'robotoslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url(font-path'robotoslab-regular-webfont.woff') format('woff'),
+         url(font-path'robotoslab-regular-webfont.ttf') format('truetype'),
+         url(font-path'robotoslab-regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slabthin';
+    src: url(font-path'robotoslab-thin-webfont.eot');
+    src: url(font-path'robotoslab-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url(font-path'robotoslab-thin-webfont.woff') format('woff'),
+         url(font-path'robotoslab-thin-webfont.ttf') format('truetype'),
+         url(font-path'robotoslab-thin-webfont.svg#roboto_slabthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slabbold';
+    src: url(font-path'robotoslab-bold-webfont.eot');
+    src: url(font-path'robotoslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url(font-path'robotoslab-bold-webfont.woff') format('woff'),
+         url(font-path'robotoslab-bold-webfont.ttf') format('truetype'),
+         url(font-path'robotoslab-bold-webfont.svg#roboto_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_slablight';
+    src: url(font-path'robotoslab-light-webfont.eot');
+    src: url(font-path'robotoslab-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url(font-path'robotoslab-light-webfont.woff') format('woff'),
+         url(font-path'robotoslab-light-webfont.ttf') format('truetype'),
+         url(font-path'robotoslab-light-webfont.svg#roboto_slablight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @import url("//fonts.googleapis.com/css?family=Lato:400,400italic")
 
