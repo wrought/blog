@@ -1,0 +1,59 @@
+<%
+var title = '';
+if (page.category) title = page.category;
+if (page.tag) title = page.tag;
+if (page.archive){
+  if (page.year) title = page.year + (page.month ? '/' + page.month : '');
+  else title = __('archive_a');
+}
+
+var monthNames = [ "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December" ];
+
+var last_year=1970,last_month=1;
+
+%>
+
+
+
+<% if (pagination == 2){ %>
+  <% page.posts.each(function(item){ %>
+    <%- partial('article', {item: item, index: true}) %>
+  <% }); %>
+
+  <%- partial('pagination') %>
+
+<% } else { %>
+
+
+<div class="archive">
+    <% page.each(function(item){ %>
+      <%
+        var year = item.date.toDate().getFullYear(),
+          month = item.date.toDate().getMonth(); 
+      %>
+
+      <% if(year!=last_year || month!=last_month){ %>
+          <div class="divider"> <%= monthNames[month] %>, <%= year%> </div>
+          <div class="clearfix""></div>
+      <% } %>
+      <%
+        last_year = year;
+        last_month = month;
+      %>    
+      <div class="archive-entry">  
+            <span class="date"><%= item.date.format(config.date_format) %></span>
+            <% if (item.link){ %>
+              <% if (item.title){ %>
+                <span class="archive-link"><a href="<%- config.root %><%- item.path %>"><%= item.title %></a></span>
+              <% } else { %>
+                <span class="archive-link"><a href="<%- config.root %><%- item.path %>"><%= item.link %></a></span>
+              <% } %>
+            <% } else { %>
+              <span class="archive-link"><a href="<%- config.root %><%- item.path %>"><%= item.title %></a></span>
+            <% } %>
+         
+      </div>
+    <% }); %>
+</div>
+<%}%>
