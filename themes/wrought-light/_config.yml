@@ -1,6 +1,9 @@
 menu:
   Home: /
   Archives: /archives
+  Projects: /projects
+  About: /about
+
 
 widgets:
 - brain
@@ -13,7 +16,7 @@ excerpt_link: More
 twitter:
   username: wrought
   show_replies: false
-  tweet_count: 3
+  tweet_count: 5
 
 addthis:
   enable: false
