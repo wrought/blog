@@ -35,17 +35,7 @@
         <%- partial('post/share') %>
       <% } %>
       <div class="clearfix"></div>
-      <div class="articlenav">
-        <% if (page.prev){ %>
-          <a href="<%- config.root %><%- page.prev_link %>">next &rarr;</a>
-        <% } %>
-        <% if (page.prev && page.next) { %>&nbsp;|&nbsp; <% } %>
-        <% if (page.next){ %>
-          <a href="<%- config.root %><%- page.next_link %>">&larr; prev</a>
-        <% } %>
-      </div>
     </footer>
   </div>
 </article>
 
-<!--<%- partial('comment') %>-->
