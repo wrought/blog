@@ -83,5 +83,5 @@ plugins:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
 deploy:
-  type: github
-  repository: git@github.com:wrought/blog.git
+  type: existenceproof.net
+  repository: git@github.com:wrought/wrought.github.io.git
