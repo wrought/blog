@@ -15,38 +15,40 @@ I &lt;3 New York city. Yes, in the cheesiest possible way because I do not live 
 
 I get on quite well with the NY humidity, despite being a desert creature used to high and dry temperatures. I love that sweating is universal and mandatory, no ifs, ands, or buts about it, we all have to stink. But more than the weather, its the hubbub and density that prevail, lucky me only around for the bustle and none of the hussle. Quick transport, heavy on the walking, low ceilings, narrow hallways, old rickety elevators, cute little everythings, function stacking, squeezing out every ounce of space&mdash;oh, efficiency never felt so good. Cities, you have a lot to learn, it should be way easier to repurpose all these ideas and all this praxis. Perhaps such is the essence of politics, and the friction of translation. 
 
-<dl>
-<dt>The trip to and fro Newark International Airport evoked a poem:</dt>
-<dd>&nbsp;</dd>
-<dd>Newark Intl &larr;&rarr; Penn Station</dd>
-<dd>&nbsp;</dd>
-<dd>A wild green and rusty old feel</dd>
-<dd>strewn among rubble, stones, and rivulets</dd>
-<dd>pockmarks of broken windows high on old warehouses</dd>
-<dd>marshes and an impossible density of reeds</dd>
-<dd>&nbsp;</dd>
-<dd>prisoners hang across the tracks</dd>
-<dd>in a barbwire yard</dd>
-<dd>they play basketball</dd>
-<dd>and some just move about, slowly</dd>
-<dd>&nbsp;</dd>
-<dd>we never see this green in the citier parts</dd>
-<dd>but damn what a number of bricks</dd>
-<dd>they make it easy to imagine</dd>
-<dd>the hands it took to lay</dd>
-<dd>&nbsp;</dd>
-<dd>a woman darts across the platform at secaucus</dd>
-<dd>just before her, a man slipped in the train</dd>
-<dd>from his wake, she pulls the doors open</dd>
-<dd>barely enough to squeeze in, smiling</dd>
-<dd>&nbsp;</dd>
-<dd>on my train</dd>
-<dd>seated commuters return home</dd>
-<dd>it reminds me of California trains</dd>
-<dd>San Jose</dd>
-<dd>San Juaquin</dd>
-<dd>but did I mention the green? and old too...</dd>
-</dl>
+The trip to and fro Newark International Airport evoked a poem:
+
+{% blockquote %}
+
+**Newark Intl &larr;&rarr; Penn Station**
+
+A wild green and rusty old feel
+strewn among rubble, stones, and rivulets
+pockmarks of broken windows high on old warehouses
+marshes and an impossible density of reeds
+
+prisoners hang across the tracks
+in a barbwire yard
+they play basketball
+and some just move about, slowly
+
+we never see this green in the citier parts
+but damn what a number of bricks
+they make it easy to imagine
+the hands it took to lay
+
+a woman darts across the platform at secaucus
+just before her, a man slipped in the train
+from his wake, she pulls the doors open
+barely enough to squeeze in, smiling
+
+on my train
+seated commuters return home
+it reminds me of California trains
+San Jose
+San Juaquin
+but did I mention the green? and old too...
+
+{% endblockquote %}
 
 In an earnest effort at earliness, I showed up to the terminal 3 comfortable hours before flight time. All possible crises averted, yet, as 5:00pm approached, we already hit a number of unanticipated delays. While in New York earlier in the day, I saw an SUV pull up the street, approaching me, and thinking perhaps this driver was seeking a word, I peered into their windows, and no sooner than she came to a rest did the rear passenger door open to a young girl... expressing her upset stomach on the street. I had been wondering why the girl in the front seat was giving herself such an intense face-palm. Well little did I know this would become a theme&mdash;the plane that arrived for us to go to Geneva had what was apparently a chaotic fit of human oral excrement&mdash;to a degree requiring more than their initial cleaning attempts, but an actual carpet replacement. And finally, with our flight just stablizing in air, I see a young boy with a petrified look, shirtless, speckled with his upchuck swifted by his father to a rear restroom.
 

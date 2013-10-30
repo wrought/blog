@@ -9,7 +9,8 @@ widgets:
 - brain
 - search
 - category
-- tag
+- tagcloud
+# - tag
 
 excerpt_link: More
 

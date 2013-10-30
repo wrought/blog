@@ -11,7 +11,7 @@ tags:
 - walls
 - subways
 - communism
-- capitlism
+- capitalism
 - socialism
 ---
 
