@@ -1,3 +1,38 @@
+@font-face {
+  font-family: 'robotolight';
+  src: url("font/roboto-light-webfont.eot");
+  src: url("font/roboto-light-webfont.eot?#iefix") format('embedded-opentype'), url("font/roboto-light-webfont.woff") format('woff'), url("font/roboto-light-webfont.ttf") format('truetype'), url("font/roboto-light-webfont.svg#robotolight") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto_slabregular';
+  src: url("font/robotoslab-regular-webfont.eot");
+  src: url("font/robotoslab-regular-webfont.eot?#iefix") format('embedded-opentype'), url("font/robotoslab-regular-webfont.woff") format('woff'), url("font/robotoslab-regular-webfont.ttf") format('truetype'), url("font/robotoslab-regular-webfont.svg#roboto_slabregular") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto_slabthin';
+  src: url("font/robotoslab-thin-webfont.eot");
+  src: url("font/robotoslab-thin-webfont.eot?#iefix") format('embedded-opentype'), url("font/robotoslab-thin-webfont.woff") format('woff'), url("font/robotoslab-thin-webfont.ttf") format('truetype'), url("font/robotoslab-thin-webfont.svg#roboto_slabthin") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto_slabbold';
+  src: url("font/robotoslab-bold-webfont.eot");
+  src: url("font/robotoslab-bold-webfont.eot?#iefix") format('embedded-opentype'), url("font/robotoslab-bold-webfont.woff") format('woff'), url("font/robotoslab-bold-webfont.ttf") format('truetype'), url("font/robotoslab-bold-webfont.svg#roboto_slabbold") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto_slablight';
+  src: url("font/robotoslab-light-webfont.eot");
+  src: url("font/robotoslab-light-webfont.eot?#iefix") format('embedded-opentype'), url("font/robotoslab-light-webfont.woff") format('woff'), url("font/robotoslab-light-webfont.ttf") format('truetype'), url("font/robotoslab-light-webfont.svg#roboto_slablight") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 @import url("//fonts.googleapis.com/css?family=Lato:400,400italic");
 @font-face {
   font-family: 'FontAwesome';
@@ -12,8 +47,8 @@
 body {
   background: #eee;
   color: #444;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 14px;
+  font-family: "roboto_slablight", "Times New Roman", Times, serif;
+  font-size: 16px;
   text-shadow: 0 0 1px transparent;
 }
 @media screen and (max-width: 1260px) {
@@ -32,20 +67,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: robotolight, OpenSans, Arial, sans-serif;
 }
 h1 {
-  font-size: 1.8em;
+  font-size: 2em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 a {
   text-decoration: none;
-  color: #258fb8;
+  color: #c31867;
 }
 a:hover {
   text-decoration: underline;
@@ -109,23 +144,40 @@ a:hover {
   color: #999;
 }
 #header a:hover {
-  color: #258fb8;
+  color: #c31867;
   text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  #header {
+    margin-bottom: 10px;
+  }
 }
 #header h1 {
   font-weight: normal;
-  font-size: 2.5em;
+  font-size: 5em;
   line-height: 1;
+}
+@media screen and (max-width: 600px) {
+  #header h1 {
+    font-size: 4em;
+  }
 }
 #header h2 {
   font-weight: normal;
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 600px) {
+  #header h2 {
+    margin-top: 10px;
+  }
 }
 #header #main-nav {
-  font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
-  line-height: 2.5em;
+  font-family: robotolight, OpenSans, Arial, sans-serif;
+  font-size: 2em;
+  line-height: 2em;
 }
 #header #main-nav ul {
   list-style: none;
@@ -133,6 +185,14 @@ a:hover {
 #header #main-nav ul li {
   float: left;
   margin-left: 30px;
+}
+@media screen and (max-width: 600px) {
+  #header #main-nav {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    line-height: 2em;
+  }
 }
 article {
   -webkit-box-shadow: 1px 2px 3px #ddd;
@@ -241,7 +301,7 @@ article header .icon {
   position: absolute;
   top: 20px;
   left: 20px;
-  color: #258fb8;
+  color: #c31867;
 }
 @media screen and (max-width: 600px) {
   article header .icon {
@@ -258,7 +318,7 @@ article header .icon:before {
 }
 article header time {
   color: #999;
-  font: 0.9em "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 0.9em robotolight, OpenSans, Arial, sans-serif;
   margin-bottom: 5px;
   display: block;
   line-height: 1;
@@ -270,7 +330,7 @@ article header .title a {
   color: #444;
 }
 article header .title a:hover {
-  color: #258fb8;
+  color: #c31867;
   text-decoration: none;
 }
 article .entry {
@@ -295,7 +355,7 @@ article .entry blockquote {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   font-style: italic;
-  font-family: "Georgia", serif;
+  font-family: "roboto_slablight", "Times New Roman", Times, serif;
   font-size: 1.2em;
   padding: 0 30px 15px;
   text-align: center;
@@ -437,7 +497,7 @@ article footer a {
   color: #999;
 }
 article footer a:hover {
-  color: #258fb8;
+  color: #c31867;
   text-decoration: none;
 }
 article footer a:before {
@@ -494,12 +554,12 @@ article footer .addthis iframe {
   padding: 5px 10px;
   background: #ddd;
   color: #999;
-  font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: robotolight, OpenSans, Arial, sans-serif;
   text-shadow: 0 0 1px #fff;
   margin-bottom: 50px;
 }
 #pagination a:hover {
-  background: #258fb8;
+  background: #c31867;
   color: #fff;
   text-decoration: none;
   text-shadow: none;
@@ -593,7 +653,7 @@ article footer .addthis iframe {
 }
 #sidebar .search input {
   background: #fff;
-  font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: robotolight, OpenSans, Arial, sans-serif;
   font-style: italic;
   font-size: 1em;
   padding: 10px 15px;
@@ -638,10 +698,18 @@ article footer .addthis iframe {
   margin-right: 10px;
   display: inline-block;
 }
+#sidebar .intro {
+  padding-top: 10px;
+}
+#sidebar #brain-scan {
+  padding-top: 10px;
+  margin: auto;
+  width: 213px;
+}
 #footer {
   color: #999;
   margin-bottom: 50px;
-  font: 0.9em/1.6 "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font: 0.9em/1.6 robotolight, OpenSans, Arial, sans-serif;
   text-shadow: 0 0 1px #fff;
 }
 .entry .gist {
@@ -679,10 +747,10 @@ article footer .addthis iframe {
   font-size: 100%;
 }
 .entry .gist .gist-file .gist-meta a {
-  color: #258fb8;
+  color: #c31867;
 }
 .entry .gist .gist-file .gist-meta a:visited {
-  color: #258fb8;
+  color: #c31867;
 }
 figure.highlight {
   background: #eee;

@@ -79,6 +79,8 @@ exclude_generator:
 plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
+- hexo-migrator-rss
+- hexo-local-image
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
