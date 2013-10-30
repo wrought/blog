@@ -10,6 +10,10 @@
   <div id="disqus_thread">
     <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </div>
+  <% } else { %>
+  <div id="tweet_me">
+    <a href="https://twitter.com/intent/tweet?text=@wrought%20<%= page.permalink %>">Submit</a> or <a href="https://twitter.com/search?q=@wrought">read</a>.
+  </div>
   <% } %>
 </section>
 <% } %>
