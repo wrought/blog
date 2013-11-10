@@ -26,7 +26,7 @@ I was disappointed to find that the [wndw.net](http://wndw.net/) website hosted 
 * Used LibreOffice to export an HTML format of the book \([.html](https://github.com/wrought/wireless-networking-in-the-developing-world/src/)\).
     * This version is generally fairly good, including MathML for the equations and mathematical statements, but there are some formatting issues, namely in the Glossary.
     * Also created a simpler copy to clean and improve the HTML \([.html](https://github.com/wrought/wireless-networking-in-the-developing-world/wndw.html)\) which includes MathJax JavaScript from the mathjax CDN to format MathML into beautiful mathematical representations. 
-* Used Pandoc to generate a MarkDown version based on the HTML format \([.md](https://github.com/wrought/wireless-networking-in-the-developing-world/wndw.md)\).
+* Used [Pandoc](http://johnmacfarlane.net/pandoc/) to generate a MarkDown version based on the HTML format \([.md](https://github.com/wrought/wireless-networking-in-the-developing-world/wndw.md)\).
     * This version is actually really clean, *except* the math and tables, which need to be reformatted.
 * Used Pandoc again to generate a MediaWiki format based on the MarkDown format \([.wiki](https://github.com/wrought/wireless-networking-in-the-developing-world/wndw.wiki)\).
     * Then, I posted the MediaWiki version [on WikiSource](https://en.wikisource.org/wiki/Wireless_Networking_in_the_Developing_World), along with a PDF [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:).
