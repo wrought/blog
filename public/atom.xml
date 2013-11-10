@@ -3,12 +3,39 @@
   <title><![CDATA[@wrought]]></title>
   <link href="http://existenceproof.net/atom.xml" rel="self"/>
   <link href="http://existenceproof.net"/>
-  <updated>2013-10-30T12:00:57.467Z</updated>
+  <updated>2013-11-09T13:39:33.486Z</updated>
   <id>http://existenceproof.net/</id>
   <author>
     <name><![CDATA[Matt Senate]]></name>
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
+  <entry>
+    <title type="html"><![CDATA[Semantic MediaWiki API Web Maps]]></title>
+    <link href="http://existenceproof.net/semantic-mediawiki-api-web-maps/"/>
+    <id>http://existenceproof.net/semantic-mediawiki-api-web-maps/</id>
+    <published>2013-11-01T11:45:36.000Z</published>
+    <updated>2013-11-09T13:39:18.000Z</updated>
+    <content type="html"><![CDATA[<p>Working on a <a href="https://github.com/chgrp/ba/issues/1" target="_blank">new feature</a> for BACH, the Bay Area Consortium of Hackerspaces, home page at <a href="http://ba.chgrp.org/" target="_blank">ba.chgrp.org</a>, which is hosted <a href="https://github.com/chgrp/ba" target="_blank">on github</a>.</p>
+<p>The goal is to embed a map of global hackerspaces offering residencies and exchanges to give context to the value for groups in the bay area to participate in residencies and exchanges as well.</p>
+<p><a href="twitter.com/dcht00">David Dtchoo]</a>@TODO of <a href="http://hackerspaces.org/wiki/Cyberhippietotalism" target="_blank">Cyberhippietotalism</a> added some maps and data queries to the <a href="http://hackerspaces.org" target="_blank">hackerspaces.org</a> wiki pages on <a href="http://hackerspaces.org/wiki/Residencies" target="_blank">Residencies</a> and <a href="http://hackerspaces.org/wiki/Exchanges" target="_blank">Exchanges</a>.</p>
+<p>Hackerspaces.org happens to be the largest live implementation of <a href="semantic-mediawiki.org">Semantic Mediawiki</a> (SMW), an engine that enables more powerful storage and retrieval of data saved in a <a href="http://mediawiki.org" target="_blank">MediaWiki</a> wiki (the same software implemented on the Wikimedia foundation projects, built originally for Wikipedia). </p>
+<p>Excellently, SMW provides a default API that allows for programmatic access.</p>
+<p>You can see the <a href="http://hackerspaces.org/w/api.php" target="_blank">help doc</a> from the implementation on hackerspaces.org.</p>
+<p>I took the same “ASK” queries from the Residencies and Exchanges pages to construct API queries like this:<br><code><a href="http://hackerspaces.org/w/api.php?action=askargs&amp;format=jsonfm&amp;conditions=|Category:Hackerspace|exchanges::!no|hackerspace%20status::active|&amp;parameters=|%3FHas%20coordinates|Location::!null|limit=500|format=map|width=1100|height=480|zoom=2|center=16%C2%B0%20N,%207%C2%B0%20E|markercluster=off|&amp;printouts=location" target="_blank">http://hackerspaces.org/w/api.php?action=askargs&amp;format=jsonfm&amp;conditions=|Category:Hackerspace|exchanges::!no|hackerspace%20status::active|&amp;parameters=|%3FHas%20coordinates|Location::!null|limit=500|format=map|width=1100|height=480|zoom=2|center=16%C2%B0%20N,%207%C2%B0%20E|markercluster=off|&amp;printouts=location</a></code></p>
+]]></content>
+    <category scheme="http://existenceproof.net/tags/mediawiki/" term="mediawiki"/>
+    <category scheme="http://existenceproof.net/tags/semantic mediawiki/" term="semantic mediawiki"/>
+    <category scheme="http://existenceproof.net/tags/semantic mediawiki api/" term="semantic mediawiki api"/>
+    <category scheme="http://existenceproof.net/tags/api/" term="api"/>
+    <category scheme="http://existenceproof.net/tags/maps/" term="maps"/>
+    <category scheme="http://existenceproof.net/tags/leaflet/" term="leaflet"/>
+    <category scheme="http://existenceproof.net/tags/geojson/" term="geojson"/>
+    <category scheme="http://existenceproof.net/tags/hackerspaces.org/" term="hackerspaces.org"/>
+    <category scheme="http://existenceproof.net/tags/hackerspaces/" term="hackerspaces"/>
+    <category scheme="http://existenceproof.net/tags/residencies/" term="residencies"/>
+    <category scheme="http://existenceproof.net/tags/exchanges/" term="exchanges"/>
+    <category scheme="http://existenceproof.net/tags/open street map/" term="open street map"/>
+  </entry>
   <entry>
     <title type="html"><![CDATA[Notes from Bay Area Drupal Camp (BADcamp)]]></title>
     <link href="http://existenceproof.net/notes-from-bay-area-drupal-camp-(badcamp)/"/>
