@@ -16,11 +16,13 @@ tags:
 - peoplesopen.net
 ---
 
-Thanks to [tunabananas](http://twitter.com/tunabananas)' adventures in Berlin, I got to pick up a physical copy of [Wireless Networks in the Developing World](http://wndw.net/) (WNDW). The book is a complete guide to running wireless networks, including background, regulatory information, technology resources, and community resources from experts in creating and maintaining networks in a wide variety of locations. It's an excellent source that I highly recommend to anyone interested in internet, wireless, mesh/local networking, community utilities, and information and communication technologies for development (ict4d). Further, you are entitled to copy, share, and remix the book since it is released under a Creative Commons Attribution Share-Alike (cc-by-sa) license, so long as your derivative work uses the same license (others can do the same to your version). 
+Thanks to [tunabananas](http://twitter.com/tunabananas)' adventures in Berlin, I got to pick up a physical copy of [Wireless Networks in the Developing World](http://wndw.net/) (WNDW). The book is a complete guide to running wireless networks in a variety of environments, including: background knowledge, regulatory information, technology resources, and community resources from experts in creating and maintaining these networks. It's an excellent source that I highly recommend to anyone interested in internet, wireless, mesh/local networking, community utilities, and information and communication technologies for development (ict4d).
+
+Further, you are entitled to copy, share, and remix the book since it is released under a [Creative Commons Attribution Share-Alike (cc-by-sa) license](http://creativecommons.org/licenses/by-sa/3.0/), so long as your derivative work uses the same license (others can do the same to your version). 
 
 I was disappointed to find that the [wndw.net](http://wndw.net/) website hosted only PDF and ebook formats, with no source files. With this opportunity and liberty of a permissive license, I did the following:
 
-* Obtained a source copy of book \([.odt](https://github.com/wrought/wireless-networking-in-the-developing-world/src/)\) from Jane Butler.
+* Obtained a source copy of the book \([.odt](https://github.com/wrought/wireless-networking-in-the-developing-world/src/)\) from lead editor [Jane Butler](http://networktheworld.org/).
 * Used LibreOffice to export an HTML format of the book \([.html](https://github.com/wrought/wireless-networking-in-the-developing-world/src/)\).
     * This version is generally fairly good, including MathML for the equations and mathematical statements, but there are some formatting issues, namely in the Glossary.
     * Also created a simpler copy to clean and improve the HTML \([.html](https://github.com/wrought/wireless-networking-in-the-developing-world/wndw.html)\) which includes MathJax JavaScript from the mathjax CDN to format MathML into beautiful mathematical representations. 
@@ -28,8 +30,9 @@ I was disappointed to find that the [wndw.net](http://wndw.net/) website hosted 
     * This version is actually really clean, *except* the math and tables, which need to be reformatted.
 * Used Pandoc again to generate a MediaWiki format based on the MarkDown format \([.wiki](https://github.com/wrought/wireless-networking-in-the-developing-world/wndw.wiki)\).
     * Then, I posted the MediaWiki version [on WikiSource](https://en.wikisource.org/wiki/Wireless_Networking_in_the_Developing_World), along with a PDF [on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:).
+    * The MediaWiki version still needs math and images to be added and uploaded respectively.
 
 ## @TODO
 
-There's a stack of issues on github to handle all the opportunities and tasks.
+There's [a stack of issues on github](https://github.com/wrought/wireless-networking-in-the-developing-world/issues) to handle all the opportunities and tasks associated with converting and sharing this document far and wide!
 
