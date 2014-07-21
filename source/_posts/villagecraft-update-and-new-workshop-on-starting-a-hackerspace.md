@@ -27,7 +27,7 @@ As for these user patterns. Two things Hayley shared are:
 1. The villagecraft user base is growing inter-connected as an organic community.
 2. Some of their users take several workshops across domains, rather than focus on individual domains.
 
-These patterns seem to imply that the time to widen and grow the community is nigh. Further, the intuitive notion that users will persue learning experiences based on the domain-specificity of their interests may very well be untrue thusfar!
+These patterns seem to imply that the time to widen and grow the community is nigh. Further, the intuitive notion that users will pursue learning experiences based on the domain-specificity of their interests may very well be untrue thusfar!
 
 Lastly, Hayley, Jeremy, and I shared some of our interests and experiences working in creative communities, using consensus, using safe space, positioning do-ocracy over bureaucracy, celebrating good-faith collaboration, and confronting bad-faith participants. As a result of our discussion, looks like I'll be hosting a workshop on [Starting a Hackerspace](http://villagecraft.org/w/3c71912c-starting-a-hackerspace), based on the [sudo room](https://sudoroom.org/) experience, conversations with folks starting hackerspaces locally as well as remotely, and my recent post on an off-the-cuff protocol: [8 steps to start a hackerspace](http://existenceproof.net/zero-to-hackerspace-in-eight-steps/). Additionally, Jeremy will be hosting one on _Consensus Process_, which we all agreed is much needed and even long-overdue.
 
