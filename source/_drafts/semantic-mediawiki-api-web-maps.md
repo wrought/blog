@@ -19,7 +19,7 @@ Working on a [new feature](https://github.com/chgrp/ba/issues/1) for BACH, the B
 
 The goal is to embed a map of global hackerspaces offering residencies and exchanges to give context to the value for groups in the bay area to participate in residencies and exchanges as well.
 
-[David Dtchoo]](twitter.com/dcht00)@TODO of [Cyberhippietotalism](http://hackerspaces.org/wiki/Cyberhippietotalism) added some maps and data queries to the [hackerspaces.org](http://hackerspaces.org) wiki pages on [Residencies](http://hackerspaces.org/wiki/Residencies) and [Exchanges](http://hackerspaces.org/wiki/Exchanges).
+[David](twitter.com/dcht00)@TODO of [Cyberhippietotalism](http://hackerspaces.org/wiki/Cyberhippietotalism) added some maps and data queries to the [hackerspaces.org](http://hackerspaces.org) wiki pages on [Residencies](http://hackerspaces.org/wiki/Residencies) and [Exchanges](http://hackerspaces.org/wiki/Exchanges).
 
 Hackerspaces.org happens to be the largest live implementation of [Semantic Mediawiki](semantic-mediawiki.org) (SMW), an engine that enables more powerful storage and retrieval of data saved in a [MediaWiki](http://mediawiki.org) wiki (the same software implemented on the Wikimedia foundation projects, built originally for Wikipedia). 
 
